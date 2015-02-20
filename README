@@ -1,0 +1,4 @@
+AsakusaSatelliteのメッセージ引用プラグインです。
+
+plugins/as_quote を AsakusaSatelliteのpluginsディレクトリにコピーし、
+config/filter_intra.yml内のpluginsの項目に"dir: as_quote"を追加してください。
