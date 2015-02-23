@@ -6,6 +6,8 @@ AsakusaQuote = {
       .map(function(str) { return "> " + str; })
       .join("\n")
       + "\n\n";
-    $("#message").val(message);
+    var target = $("#message");
+    target.val(message);
+    target.focus();
   }
 }
