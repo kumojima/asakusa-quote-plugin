@@ -10,4 +10,4 @@ AsakusaQuote = {
     target.val(message);
     target.focus();
   }
-}
+};
